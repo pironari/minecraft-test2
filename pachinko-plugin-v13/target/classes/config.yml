@@ -1,0 +1,20 @@
+economy:
+  ball_packs:
+    500: 1000
+    1500: 2500
+    5000: 7000
+  exchange_rate: 4        # 玉何個で1円
+  min_exchange: 100       # 換金最低玉数
+  tax_rate: 0.1           # 換金手数料 (10%)
+
+pachinko:
+  normal_probability: 319     # 通常時の大当たり確率分母 (1/319)
+  kakuhen_probability: 99     # 確変時の大当たり確率分母 (1/99)
+  kakuhen_rate: 0.6           # 大当たり後の確変率 (60%)
+  max_round: 15               # 最大ラウンド数
+  max_count: 10               # 1ラウンド最大カウント
+  atacker_open_time: 29       # アタッカー開放時間(tick)
+  hold_max: 4                 # 最大保留数
+
+machine:
+  location: ""                # 台の設置場所（自動保存）

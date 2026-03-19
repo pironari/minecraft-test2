@@ -1,0 +1,14 @@
+com\pachinko\plugin\PachinkoMachine.class
+com\pachinko\plugin\BallPhysics.class
+com\pachinko\plugin\PachinkoPlugin.class
+com\pachinko\plugin\BallPhysics$Mode.class
+com\pachinko\plugin\EconomyManager.class
+com\pachinko\plugin\PachinkoMachine$1.class
+com\pachinko\plugin\DigitalDisplay.class
+com\pachinko\plugin\MachineBuilder.class
+com\pachinko\plugin\DigitalDisplay$1.class
+com\pachinko\plugin\AttackerSystem$1.class
+com\pachinko\plugin\PachinkoCommand.class
+com\pachinko\plugin\AttackerSystem.class
+com\pachinko\plugin\DigitalDisplay$2.class
+com\pachinko\plugin\DigitalDisplay$ReachType.class

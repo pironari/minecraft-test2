@@ -1,0 +1,29 @@
+name: PachinkoWorld
+version: 1.0.0
+main: com.pachinko.plugin.PachinkoPlugin
+api-version: 1.20
+description: PachinkoWorld - 本格パチンコゲーム for Minecraft
+authors: [Claude]
+depend: [Vault]
+
+commands:
+  pachinko:
+    description: パチンコ台を設置・管理するコマンド
+    usage: /pachinko <place|remove|info>
+    permission: pachinko.admin
+  pstart:
+    description: パチンコを開始する
+    usage: /pstart
+    permission: pachinko.play
+  pstop:
+    description: パチンコを終了して換金する
+    usage: /pstop
+    permission: pachinko.play
+
+permissions:
+  pachinko.admin:
+    description: パチンコ台の管理
+    default: op
+  pachinko.play:
+    description: パチンコのプレイ
+    default: true
