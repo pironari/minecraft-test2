@@ -1,0 +1,4 @@
+name: GiveItemPlugin
+version: 1.0
+main: com.pironari.giveitem.GiveItemPlugin
+api-version: 1.20
