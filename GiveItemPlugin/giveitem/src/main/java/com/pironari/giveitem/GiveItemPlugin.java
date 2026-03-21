@@ -7,6 +7,7 @@ public class GiveItemPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("GiveItemPlugin が有効になりました！");
+        getCommand("giveitem").setExecutor(new GiveItemCommand());
     }
 
     @Override
